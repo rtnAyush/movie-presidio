@@ -2,7 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import booksRoute from './routes/moviesRoute.js';
 import cors from 'cors';
-require('dotenv').config();
+import dotenv from 'dotenv'
+dotenv.config();
 
 const app = express();
 
